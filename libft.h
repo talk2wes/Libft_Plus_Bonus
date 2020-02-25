@@ -6,7 +6,7 @@
 /*   By: wjohanso <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/06 09:12:52 by wjohanso          #+#    #+#             */
-/*   Updated: 2020/02/25 11:45:18 by wjohanso         ###   ########.fr       */
+/*   Updated: 2020/02/25 12:21:03 by wjohanso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,4 +83,5 @@ void			ft_putchar_fd(char s, int fd);
 void			ft_putstr_fd(char const *c, int fd);
 void			ft_putendl_fd(const char *s, int fd);
 void			ft_putnbr_fd(int n, int fd);
+int				list_length(char const *s, char c);
 #endif
